@@ -32,7 +32,7 @@ async function searchImages() {
         imageLink.target = "_blank";
         imageLink.textContent = result.alt_description;
 
-        imageWrapper.appendChild(image);
+        imageLink.appendChild(image);
         imageWrapper.appendChild(imageLink);
         searchResults.appendChild(imageWrapper);
     })
